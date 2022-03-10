@@ -1,11 +1,12 @@
-package com.abba.androidtask
+package com.abba.androidtask.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.abba.androidtask.R
 
-class MainActivity : AppCompatActivity() {
+class PageOne : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.page_one)
     }
 }
