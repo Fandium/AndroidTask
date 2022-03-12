@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidTask">
         <activity
+            android:name=".activity.ItemTwo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ItemOne"
+            android:exported="false" />
+        <activity
             android:name=".activity.PageOne"
             android:exported="true">
             <intent-filter>

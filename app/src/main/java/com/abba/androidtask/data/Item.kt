@@ -7,8 +7,6 @@ import androidx.room.PrimaryKey
 data class Item (
     @PrimaryKey(autoGenerate = true)
     val id: Int,
-    val name: String,
-    val price: Int,
     val locked: Boolean
     )
 
